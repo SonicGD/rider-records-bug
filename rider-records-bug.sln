@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18F69F32-63B2-4A45-933E-5383A20328D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderBugConsumer", "src\RiderBugConsumer\RiderBugConsumer.csproj", "{548E33D8-468E-4CF8-B5CA-6633203A814C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderBugPackage", "src\RiderBugPackage\RiderBugPackage.csproj", "{2DA9AB2D-67BE-4008-A6F0-95CA72063FEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{548E33D8-468E-4CF8-B5CA-6633203A814C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548E33D8-468E-4CF8-B5CA-6633203A814C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548E33D8-468E-4CF8-B5CA-6633203A814C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548E33D8-468E-4CF8-B5CA-6633203A814C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA9AB2D-67BE-4008-A6F0-95CA72063FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA9AB2D-67BE-4008-A6F0-95CA72063FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA9AB2D-67BE-4008-A6F0-95CA72063FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA9AB2D-67BE-4008-A6F0-95CA72063FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{548E33D8-468E-4CF8-B5CA-6633203A814C} = {18F69F32-63B2-4A45-933E-5383A20328D2}
+		{2DA9AB2D-67BE-4008-A6F0-95CA72063FEE} = {18F69F32-63B2-4A45-933E-5383A20328D2}
+	EndGlobalSection
+EndGlobal
